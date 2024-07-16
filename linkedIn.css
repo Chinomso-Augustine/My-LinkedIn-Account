@@ -1,0 +1,128 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.frame{
+    border: 2px solid purple;
+    width: 60%;
+}
+.photo-frame{
+    border: 2px solid red;
+    margin-top: 10px;
+    background-image: url(Pictures/Background.jpg);
+    width: 100%;
+    height: 320px;
+  
+}
+.profile-picture{
+    border: 4px solid white;
+    width: 180px;
+    border-radius: 100px;
+    margin-left: 20px;
+    margin-bottom: -360px;
+}
+
+.info{
+    border: 2px solid blue;
+    margin-top: 60px;
+}
+.account-year-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0;
+}
+.account-name{
+    border: 2px solid rgb(255, 47, 47);
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    width: 500px;
+    height: 50px;
+
+}
+.name{
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 4px;
+}
+.pronoun{
+    font-size: 20px;
+    color: gray;
+    margin-right: 4px;
+}
+.varify-icon{
+    display: inline-flex;
+    align-items: center;
+    width: 130px;
+    height: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 80px;
+    border: 1px dashed  rgb(10, 102, 194);
+    margin-left:10px;
+
+}
+.icon-image{
+    padding-left: 10px;
+
+}
+.verify{
+    font-size: 14px;
+    color:rgb(10, 102, 194);
+    margin-left: 4px;
+    padding-right:1px;
+    cursor: pointer;
+}
+.buiding-frame{
+    display: block;
+    border: 2px solid blue;
+    width: 250px;
+    margin-right: 20px;
+    padding-bottom: 0px;
+    height: 110px;
+
+    
+}
+.work{
+    display: inline-flex;
+    border: 2px solid greenyellow;
+    padding: 0px;
+    height: 50px;
+}
+.work-building{
+    width: 50px;
+    height: 50px;
+
+      
+}
+.contact-and-school-frame{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid greenyellow;
+}
+.year-contact-frame{
+    padding-left: 20px;
+}
+.city,.contact{
+    display: inline-flex;
+  
+}
+
+.school-name-frame{
+    display: inline-flex;
+    width: 240px;
+    height: 50px;
+    margin-right: 20px;
+    border: 2px solid red;
+    
+}
+.school-picture{
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+}
+.year{
+    padding: 0px;
+    margin: 0;
+}

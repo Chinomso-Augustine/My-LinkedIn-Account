@@ -5,6 +5,7 @@ body{
 .frame{
     border: 2px solid purple;
     width: 60%;
+    height: 800px;
 }
 .photo-frame{
     border: 2px solid red;
@@ -21,7 +22,6 @@ body{
     margin-left: 20px;
     margin-bottom: -360px;
 }
-
 .info{
     border: 2px solid blue;
     margin-top: 60px;
@@ -31,6 +31,9 @@ body{
     justify-content: space-between;
     margin: 0px;
     padding: 0;
+}
+.account-frame{
+    border: 2px solid rgb(32, 11, 11);
 }
 .account-name{
     border: 2px solid rgb(255, 47, 47);
@@ -48,7 +51,7 @@ body{
 }
 .pronoun{
     font-size: 20px;
-    color: gray;
+    color:rgba(0, 0, 0, 0.5);
     margin-right: 4px;
 }
 .varify-icon{
@@ -73,6 +76,7 @@ body{
     margin-left: 4px;
     padding-right:1px;
     cursor: pointer;
+    font-weight: bold;
 }
 .buiding-frame{
     display: block;
@@ -81,32 +85,16 @@ body{
     margin-right: 20px;
     padding-bottom: 0px;
     height: 110px;
-
-    
-}
-.work{
-    display: inline-flex;
-    border: 2px solid greenyellow;
-    padding: 0px;
-    height: 50px;
+ 
 }
 .work-building{
     width: 50px;
     height: 50px;
-
-      
 }
 .contact-and-school-frame{
     display: flex;
     justify-content: space-between;
     border: 2px solid greenyellow;
-}
-.year-contact-frame{
-    padding-left: 20px;
-}
-.city,.contact{
-    display: inline-flex;
-  
 }
 
 .school-name-frame{
@@ -122,7 +110,117 @@ body{
     height: 50px;
     margin: 0px;
 }
-.year{
+.work{
+    display: inline-flex;
+    border: 2px solid greenyellow;
+    padding: 0px;
+    height: 50px;
+}
+
+.year-contact-frame{
+    padding-left: 20px;
+}
+.year,.city,.contact{
     padding: 0px;
     margin: 0;
+}
+.year{
+    color: rgba(0,0,0,0.7)
+}
+.city{
+    color: rgba(0,0,0,0.5)
+}
+.contact{
+    color: rgb(10, 102, 194);
+    font-weight: bold;
+}
+.city,.contact{
+    display: inline-flex;
+    margin-top: 10px;
+}
+.connection{
+    border: 2px solid green;
+}
+.connection-num{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(10, 102, 194);
+    font-weight: bold;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 130px 210px 100px;
+    border: 2px solid red;
+    height: 60px;
+    align-items: center;
+    
+}
+.job{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0px;
+    margin-left: 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color:rgb(10, 102, 194);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+
+
+}
+.profile-section{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid rgb(10, 102, 194);
+    margin: 0px;
+    color: rgb(10, 102, 194);
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.more{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0px;
+    border: 2px solid rgba(0, 0, 0, 0.75);
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.work-info{
+    border: 2px solid blue;
+    width: 500px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    font-size: 14px;
+    border-radius: 11px;
+    margin-top: 10px;
+}
+.work-status{
+    font-weight: bold;
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: rgba(0,0,0,0.9);
+  
+}
+.job-interest{
+    margin: 0;
+    margin-left: 15px;
+    color: rgba(0,0,0,0.8) 
+}
+.detail{
+    margin: 0;
+    margin-left: 15px;
+    color: rgb(10, 102, 194);
+    font-weight: bold;
 }

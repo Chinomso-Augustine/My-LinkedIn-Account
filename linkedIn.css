@@ -3,16 +3,35 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .frame{
-    border: 2px solid purple;
+    border:2px solid #eee;
     width: 60%;
-    height: 800px;
+    height: 696px;
+    box-shadow: 0px 0px 20px rgb(153, 7, 153);
+    border-radius: 15px;
+}
+.pen1-frame{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0;
+    margin-top: 12px;
+    margin-left: 95%;
+    background-color: white;
+    border-radius: 900px;
+    width: 40px;
+    height: 40px;
+}
+.pen1{
+width: 16px;
+right: 0;
+margin-right: 10px;
 }
 .photo-frame{
-    border: 2px solid red;
-    margin-top: 10px;
     background-image: url(Pictures/Background.jpg);
+    border-radius: 15px;
     width: 100%;
-    height: 320px;
+    height: 310px;
+    margin: 0;
   
 }
 .profile-picture{
@@ -22,9 +41,23 @@ body{
     margin-left: 20px;
     margin-bottom: -360px;
 }
+.pen-frame{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0;
+    margin-top: 12px;
+    margin-left: 200px;
+    
+   
+}
+.pen{
+width: 26px;
+right: 0;
+margin-right: 20px;
+}
 .info{
-    border: 2px solid blue;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 .account-year-container{
     display: flex;
@@ -32,11 +65,8 @@ body{
     margin: 0px;
     padding: 0;
 }
-.account-frame{
-    border: 2px solid rgb(32, 11, 11);
-}
+
 .account-name{
-    border: 2px solid rgb(255, 47, 47);
     display: flex;
     padding-left: 20px;
     align-items: center;
@@ -61,9 +91,10 @@ body{
     height: 20px;
     padding-top: 4px;
     padding-bottom: 4px;
+    border: dashed;
     border-radius: 80px;
-    border: 1px dashed  rgb(10, 102, 194);
     margin-left:10px;
+    color: rgb(10, 102, 194);
 
 }
 .icon-image{
@@ -80,7 +111,6 @@ body{
 }
 .buiding-frame{
     display: block;
-    border: 2px solid blue;
     width: 250px;
     margin-right: 20px;
     padding-bottom: 0px;
@@ -94,7 +124,6 @@ body{
 .contact-and-school-frame{
     display: flex;
     justify-content: space-between;
-    border: 2px solid greenyellow;
 }
 
 .school-name-frame{
@@ -102,7 +131,6 @@ body{
     width: 240px;
     height: 50px;
     margin-right: 20px;
-    border: 2px solid red;
     
 }
 .school-picture{
@@ -112,7 +140,6 @@ body{
 }
 .work{
     display: inline-flex;
-    border: 2px solid greenyellow;
     padding: 0px;
     height: 50px;
 }
@@ -138,9 +165,7 @@ body{
     display: inline-flex;
     margin-top: 10px;
 }
-.connection{
-    border: 2px solid green;
-}
+
 .connection-num{
     margin-left: 20px;
     margin-top: 10px;
@@ -151,7 +176,6 @@ body{
 .buttons{
     display: grid;
     grid-template-columns: 130px 210px 100px;
-    border: 2px solid red;
     height: 60px;
     align-items: center;
     
@@ -175,7 +199,6 @@ body{
     width: 200px;
     height: 40px;
     border-radius: 20px;
-    border: 2px solid rgb(10, 102, 194);
     margin: 0px;
     color: rgb(10, 102, 194);
     background-color: white;
@@ -189,14 +212,12 @@ body{
     height: 40px;
     border-radius: 20px;
     margin: 0px;
-    border: 2px solid rgba(0, 0, 0, 0.75);
     color: rgba(0, 0, 0, 0.75);
     font-weight: bold;
     font-size: 16px;
     cursor: pointer;
 }
 .work-info{
-    border: 2px solid blue;
     width: 500px;
     height: 70px;
     background-color: rgba(0, 0, 0, 0.1);
@@ -204,11 +225,13 @@ body{
     font-size: 14px;
     border-radius: 11px;
     margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 .work-status{
     font-weight: bold;
     margin: 0;
-    margin-top: 15px;
+    margin-top: 4px;
     margin-left: 15px;
     color: rgba(0,0,0,0.9);
   
@@ -223,4 +246,12 @@ body{
     margin-left: 15px;
     color: rgb(10, 102, 194);
     font-weight: bold;
+}
+.pen3-frame{
+margin-top: 4px;
+margin-right: 8px;
+}
+.pen3{
+    width: 15px;
+    height: 15px;
 }
